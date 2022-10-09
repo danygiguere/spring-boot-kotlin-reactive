@@ -1,0 +1,12 @@
+spring:
+    r2dbc:
+        url: r2dbc:mysql://localhost:3306/reactive?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+        username: root
+        password: root
+
+logging:
+    level:
+        root: debug
+    org:
+        springframework:
+            web: DEBUG
